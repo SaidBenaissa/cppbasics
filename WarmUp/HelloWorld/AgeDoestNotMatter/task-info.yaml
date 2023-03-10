@@ -1,0 +1,52 @@
+type: output
+custom_name: Age Does Not Matter
+files:
+- name: test/output.txt
+  visible: false
+  encrypted_text: 7yUp2Y85VKwpKHnMSDy8ij7PNbnBZv/OPkqj3krZsg9wF+aMinizNKN2XZTZgj9W4FT7tPWPXP+AX3OArSOzAA==
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrfkenaiLJ9xzFHMa7NoBw5VhAVndFfScEgVfXUruesdAQxtDDfMhaj2hsEg2z7UmLMARGLlYeio0++pw8Pbb/EAIcT0EyYUHfKx4Xb/594FlvS2mlti896tUETXH/R47nZmDWGrQ3TyBM5qPBw3DF/g==
+  learner_created: false
+- name: test/input.txt
+  visible: false
+  encrypted_text: l+YtRAUJ47IvuM9BwU5y2w==
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 147
+    length: 10
+    placeholder_text: /* TODO */
+    initial_state:
+      length: 10
+      offset: 147
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: HcNcq/fMif5mNxEEDDKVcrcuuWNEMt1aVqk/cF1ttoU=
+  - offset: 213
+    length: 10
+    placeholder_text: /* TODO */
+    initial_state:
+      length: 10
+      offset: 213
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: YdHlJKrHwXknbeLzU1UAnpiYlo9NhGds7farGKjEr08=
+  - offset: 229
+    length: 10
+    placeholder_text: /* TODO */
+    initial_state:
+      length: 10
+      offset: 229
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: d8UH81JQxxEhK0gFMKMx6M+VXq5lT6D+W5Z0nk+pxYDU0VZ5oe6aEAYZR8eKw3u2+vSuPwSaRLOxcMluh1HSfQ==
+  encrypted_text: G1EDRCp8K72w6UaV30vFpI1uJtNYv2m0HRLE7pSiNzGrSEVGYefK3+wt4zhek5WdKwvvg6WVoL4rrzaeKajE7g4vvHq51/QSW+LHzjbeEO3yUunqUwwak0VqgzC8TClpYtYN2CQDJdPV7lLe/9NQqXcoIPW+jnGEA/ORjJRPzt6h+jvZJ1kQQlp+UKwuDrfjls1yZSEDjSGvbi5Axd2A4/lbvTymvTn/HnDNjsNCnLq2OlLTp+p3YniPOOoTJmeBHW1QgaG67Qj4V2kY+vWL5HaTVnNjPM9SIMV/4WBM+AZMA8wgKqfAGapMQnvufQbfbz2MVUaz8J1h/BYiORqwnCNn0GrzddGNd2GhZR9ZBvQ=
+  learner_created: false
+status: Unchecked
+record: -1

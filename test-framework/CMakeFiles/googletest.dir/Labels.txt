@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/googletest
+/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/googletest.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/googletest-complete.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-test.rule
+/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-update.rule

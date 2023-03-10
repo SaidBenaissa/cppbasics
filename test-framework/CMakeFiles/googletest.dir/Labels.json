@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		},
+		{
+			"file" : "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

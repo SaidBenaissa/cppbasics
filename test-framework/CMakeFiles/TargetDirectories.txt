@@ -1,0 +1,3 @@
+/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/googletest.dir
+/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/edit_cache.dir
+/Users/said/CLionProjects/C++Basics1/test-framework/CMakeFiles/rebuild_cache.dir

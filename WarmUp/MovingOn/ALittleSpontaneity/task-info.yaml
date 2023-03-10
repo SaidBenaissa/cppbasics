@@ -1,0 +1,214 @@
+type: edu
+custom_name: A Little Spontaneity
+files:
+- name: CMakeLists.txt
+  visible: false
+  encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrPz0+eaKEnrV9oK0/cZgsVj7r6XlmfKyzeoTGhdYL7x+j+S8Fpqp83S9d3nYlfwLfLl+kQbKbDingIPsOTRdNUGMr1TOzxsUfLknS7n1Q+bFxegh1dkEIdI5xTbtQN+hki2BPoUfqBVZyoOtq2wvvvDvEbujI6KBDUGrl1E0ijq2mJS1wl15Dx+Yi6+c79jsjYFvjc8425iWZWAeU9PP1zBxSUzhJrOuOL8oqDM5pWDCC0UzBxth3XpYY2wdCS0MgxNr/M8dxIAuA+00R5GbM1SoOMBYLyd+F00pxwESXIfXBieFHcGhYImaHIe1dpJWwJA5FjQ8VhUoVq73VAmWy79kqXzJJeCnMlGvh8QPSvH9rPNt/i0ryoOBkGgkNSH8tTJh1dDEzFa3Lm8e6X6ASxXiQoZA7+Hun/kTqUzrn7RCZcQsPyMf4VhyZwTkpLODRZCIo4s0YqPwI3NkZcM5//SQdgSZ7aOZLf40FFX/VAwWO1CmtDQeZj5yY6fTuQCdHyKMEWrzYoH737n7rfg+j/WYJOnoUy6CJ0B9zz2tjk+Py0WbF3DNaIp5Sxs9rQzxNj6b9H3NcCr4HFaG453aP8TOgdkDE+YVvIdB7JAe4g4lWPPbl6vJNTU114JB3SG15
+  learner_created: false
+- name: test/test.cpp
+  visible: false
+  encrypted_text: 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
+  learner_created: false
+- name: src/borders.cpp
+  visible: true
+  placeholders:
+  - offset: 101
+    length: 10
+    placeholder_text: /* TODO */
+    dependency:
+      section: WarmUp
+      lesson: MovingOn
+      task: ConsumeAnObject
+      file: src/borders.cpp
+      placeholder: 1
+      is_visible: false
+    initial_state:
+      length: 10
+      offset: 101
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: /* TODO */
+    encrypted_possible_answer: yl5iURF5Apz2XgzAQUW6ycbGngLiVHi5Xgeg5ngjYe8JS2ySwqKXxWHVnddy0p5Eov6lMaANMLK198KkaVJlMC4nO0Gzi8nlyoRmAQMSn/hUGcELpDXJ7Re0XvZOJPoLi9Bqrk9cVQqY7rJFFFrqwT4WPMvfuj6p6mbBmNbMC6FioMO+4Jj3WksYP5Px1oku/+mLsb02qF0fvMAwTH6LajhT1u77Y13pONAryM35j3jzwWcYgf8JflZVnORMq4otuoQMS3AFSbwPz/NlAdaAy/Xv9SC3brMKaw1v6LYwr/r4yzJoToXa0JApK7IJLKVuHW2LNiX3DZ/IkONk0sYgnMfU+ap43J+1x5GytqdXb440Bw1AeyLhMcQCQUimM6YaH+iY+xqREVYyZpGTIlXt2VmHNR9OvIZd4RXZKQcCL14xX1dBjEQpW1mIAvNfRAc+PSiPQFM727gvYJKJpYbbmWRyLyOrqzfqkqsLVcfIQz4=
+  encrypted_text: KUyAJGp9gdAtiVWanPzuwZNO2eJ5pv84Wuo6wjO1wfCkPHpEM1eoda2RQmJ0sD89E63tm4duelXhSfUvLMvuytypP/JEBVsX04C2fJei4YQHGYGP2lXyvH7YH7b5Ot8adDq8ph2JYih/kNRIVAY2aFnjzcHuGI8RMaYZyNeXAqVASQlrY97qfu6z2o5JYNmc
+  learner_created: false
+- name: src/collision.cpp
+  visible: true
+  placeholders:
+  - offset: 83
+    length: 12
+    placeholder_text: return 0.0f;
+    dependency:
+      section: WarmUp
+      lesson: MovingOn
+      task: ConsumeAnObject
+      file: src/collision.cpp
+      placeholder: 1
+      is_visible: false
+    initial_state:
+      length: 12
+      offset: 83
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: return 0.0f;
+    encrypted_possible_answer: PUlIQgIttPqIGuEH/18h55eyy/dVwuBxaW5B6Wt2Cl9k1eKok2ImVAahHkf+TM9LlEBBW4FeG5u/G82ed9uy9HYex3UlBC+z68n3Tg+D8iUdsSLuBKr8wRe6mK/c0fW1
+  - offset: 152
+    length: 13
+    placeholder_text: return false;
+    dependency:
+      section: WarmUp
+      lesson: MovingOn
+      task: ConsumeAnObject
+      file: src/collision.cpp
+      placeholder: 2
+      is_visible: false
+    initial_state:
+      length: 13
+      offset: 152
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: return false;
+    encrypted_possible_answer: HUwuwOqnE23TFvPw8T+P6PJ/GfZCM0NnGl7Gh/Idkoza7Qx/Lk0PF+uFyGHNvrItDYMV6IVC8XImmlvNqJ8x5liAjlEY/Xen5SU1zfq3P9TQuXSoSMO9+VsC/7rc/Clk
+  encrypted_text: IyPGAgtVdcN+Yqg8E1sb863Pe500O7MLPzUplJEu0RJUWKj7zTHH8VmQRsIBzRsFXYSLxwrsCZ4RbMUKEjxgsUuzaJpGi59JyUcypqO1scQ3Sfj60LzFuga32RWT5zM/SA7IUN4U9anH9C/QvdILLEy0jJRrbhI55B0ELZRJlj+5By//K52FciEWloQ8P/n38qcy2JKI3x277Hq8E4WQL/RUkYBTv86GeLWZS8cfSFk=
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  encrypted_text: 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
+  learner_created: false
+- name: src/move.cpp
+  visible: true
+  placeholders:
+  - offset: 69
+    length: 8
+    placeholder_text: position
+    dependency:
+      section: WarmUp
+      lesson: MovingOn
+      task: ConsumeAnObject
+      file: src/move.cpp
+      placeholder: 1
+      is_visible: false
+    initial_state:
+      length: 8
+      offset: 69
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: position
+    encrypted_possible_answer: pROzx0hc0Q1KB+BSFFdI7Bsu+CxUFxIstTorfDkR9NE=
+  encrypted_text: DgDba3xw8RdPYu5Vpld1eY1E1In1EtrkhpergIjsa98GD9AajcxH3KPkrZtC79Z0z0WeLwhF/LNOzCk14uM0mog9a08gUS9CQUy3yToBClMpNR864AeSKRzrZlaUOFpZ
+  learner_created: false
+- name: src/point.cpp
+  visible: true
+  placeholders:
+  - offset: 88
+    length: 10
+    placeholder_text: /* TODO */
+    dependency:
+      section: WarmUp
+      lesson: MovingOn
+      task: ConsumeAnObject
+      file: src/point.cpp
+      placeholder: 1
+      is_visible: false
+    initial_state:
+      length: 10
+      offset: 88
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: /* TODO */
+    encrypted_possible_answer: INFFZm5M9eNeUYNHh0poE4IjA6Qhliit+YXwuyp8KiidJgZf8F5m/TN12meGrfFZ
+  - offset: 180
+    length: 10
+    placeholder_text: /* TODO */
+    dependency:
+      section: WarmUp
+      lesson: MovingOn
+      task: ConsumeAnObject
+      file: src/point.cpp
+      placeholder: 2
+      is_visible: false
+    initial_state:
+      length: 10
+      offset: 180
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: /* TODO */
+    encrypted_possible_answer: pelbdSGe8NgHG+byI/ljy5v/ZQLq/c9yOSKURsdX+MpMLssF9QyW3PScRwJi68X/
+  - offset: 283
+    length: 8
+    placeholder_text: position
+    dependency:
+      section: WarmUp
+      lesson: MovingOn
+      task: ConsumeAnObject
+      file: src/point.cpp
+      placeholder: 3
+      is_visible: false
+    initial_state:
+      length: 8
+      offset: 283
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: position
+    encrypted_possible_answer: SKJuYDb16PU7jYutTiTlSfCAdk8sm41OEn66k7L3tCTPDWPR+FlDsnI2q+usN94C
+  encrypted_text: KUyAJGp9gdAtiVWanPzuwZNO2eJ5pv84Wuo6wjO1wfBdMxdfrCVrva4pftvco4l10ClR7ZZb4cextUBk6sK+pPMnWNtDfgT+Ux70ZEj14VFjYTmFd/CNjrYkftVqTUitGeFd48bQOgkOjG3XbW+gliXBwwjp/0fSQsbgQQSVsc7UfUztqBYjYF+HVnqapyBzCcaIM/6QhCQeUgvXn3C4gqLXFLK3p7MtiGz7t3GYs1dyHveJdHEq+NxhaIl8sXHcBfxxbKXmW6bnVb8PvDv8wI1S/5+XMWczBp2RjyAkEtsgIj0yQU2EhMznaCMWo6g0LQJrurJI1D+TmRK0pEaGysdlalkyh2CKh6VZyEx9BepSwwHAhH4vUeVdkW8Oqv1n0dicl3Adi4KVrqz7wEZydQ==
+  learner_created: false
+- name: src/generate.cpp
+  visible: true
+  placeholders:
+  - offset: 130
+    length: 10
+    placeholder_text: /* TODO */
+    initial_state:
+      length: 10
+      offset: 130
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: /* TODO */
+    encrypted_possible_answer: vnVhZMzzomxFUxcGj2EayL3K2sEPhqMRdS7tPvaPpmXzIzg/1YXY+Y8ySkpX8klRlmpQMiq0n4l+MksytKA6J1ysdWnLAkt0B03P1sYLgp91zKCQyluECfSt5t7Z/7mPuyp/fvyBqhFuOvwZAy1P0sInsEjx9KsdoB9cwL88IlyiC7Yd5VhxuClRHYDhPk6XGrM/w1geQM12j2OACE5hZHU+uFvh5M8zWG0GIbGnibQ=
+  - offset: 216
+    length: 11
+    placeholder_text: return min;
+    initial_state:
+      length: 11
+      offset: 216
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    student_answer: return min;
+    encrypted_possible_answer: oQjURSTyBfR1RKP/OweIpANhNR0lkfwJPHb2rhaqVMtSoTlK7MY2Y6DU/XEMg0+QvRxrph19Dri59rRI0x0wPQ==
+  encrypted_text: KUyAJGp9gdAtiVWanPzuwdA/cvSiHcC+3/CmPg9jWG1xQu9hOAil0Ux58fy3pkjrjFn0zW+QLZU90DVr6fXFgbQ7htwzOdWzKt1TVEusdYvoQH4xUYKar+wUPL6yIP9t81/BJMrynFMjoKtAIdqcF58Dpkq/vchYrEUEbSvAqe5pCrB4L5rWOkVn4cQUwaSDAq8yzorZzYL7WKLSO/oEOc0NgG2C3rkHcAOg9RhXXuj8YTQUimsyL8zxnWSVE9JA38H+l1lTAZyd/XJdNY2ZMHaL/rwG39BjjT7KyTVlsLYbqXMJPnE12ZL507+qtchH
+  learner_created: false
+- name: src/direction.cpp
+  visible: true
+  placeholders:
+  - offset: 65
+    length: 79
+    placeholder_text: "return { 0.0f, 0.0f };"
+    dependency:
+      section: WarmUp
+      lesson: MovingOn
+      task: ConsumeAnObject
+      file: src/direction.cpp
+      placeholder: 1
+      is_visible: false
+    initial_state:
+      length: 22
+      offset: 70
+    initialized_from_dependency: false
+    selected: true
+    status: Unchecked
+    student_answer: "\n  switch (direction) {\n  case Direction::North:\n    return\
+      \ {0, 1};\n    \n  \n  }"
+    encrypted_possible_answer: on/sur0CWG0ibtaPUp4I4RUa30x7yQMzoRa3PT1t+wVzhIhGVGPHM+T6Gr+R6IJV4Hjx4y86zIZwJUAHd/hD8rqBoQrW24nluRsodOi0kuCn9u4lYk/IciCzHS8/gW4QmXrrXZaFLbYxsa4MUeblFoNB91IU6yFnko54WTOpCoMdG1fqKiwO8GrPm4oelSKsg1ivMsUU0ivW3TQJ53B84TyhRBnpirNJFCDlBzi6lEBHU/5slem/JJUyQ1YzRylcgCIB8kummjhHHMZVpHVRV+/TBF3E8THxteUX1w2JaI1ty9qbeI5kZCMZsuLvKNcUmuRjZxIzY3fryRws/poX6qczfP37k4ht59RpqnTRB3qhSjf1joUgXpkD/jF1+qwKnP+D+/AVSO5mGOrDzGhejEnE9jQbU6nv9cwZOK/BiXE=
+  encrypted_text: KUyAJGp9gdAtiVWanPzuwclPgMsaWrap7oQYk2v2nxgDWb/vs8P1/FdWy6SUTv5cwnV2mz+ZtKKT4SinJQ7rb2xZkKT1CozhDfB+/H3wO96WMo5OQ3Si4k9hM0SSdoAK
+  learner_created: false
+status: Unchecked
+record: 9

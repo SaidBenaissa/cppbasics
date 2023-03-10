@@ -1,0 +1,13 @@
+type: theory
+files:
+- name: CMakeLists.txt
+  visible: false
+  encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHrdT0w+OY7NYWwxBTguNhotrPyzsBhR5+TcanMxeWXYDr1/2oo3Hx1BT1MaC8rYYquF3q8WGkD0WcgysFg0WC50IgzvuHzlKbm60Tpc+fb3E92oBoeZzJYkBd3EPXv30OLnC0vlSy4k85Lfbj5o7Nvkl1l2X6YwPnYRkRhkzYqPYeWb7Je6ErSByA939CDWyj9ZsDTipSRVuWImefM5JIVgjbkwVBzzbhL6zMTEFdv5yX3Ir/nyZo9jKUj4b2UzmloqdqEhMPcU815yRRBLj2ByHtpBng4fOEKxej6PsBjCsH5NN3ZENQUbvY11JbhOWlhJ2OPWxrHwbzu3kbx6ju/9Gc6KQkPbgxGCg8pBvO7Ujg=
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

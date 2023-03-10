@@ -1,0 +1,17 @@
+type: framework
+content:
+- StartTheGame
+- MoveAnObject
+- LookAround
+- HavingFun
+- MovingUp
+- GivingDirection
+- DrawALine
+- ConsumeAnObject
+- ALittleSpontaneity
+- RunningInALoop
+- KeepSpinning
+- LimitsOfPossible
+- HuntingBugs
+- PlayAround
+current_task: 7

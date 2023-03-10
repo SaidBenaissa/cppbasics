@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-all.cc \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest-message.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest-death-test.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest-param-test.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-linked_ptr.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest-printers.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/gtest-param-util-generated.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest_prod.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest-test-part.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest.cc \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/internal/custom/gtest.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include/gtest/gtest-spi.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-internal-inl.h \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-death-test.cc \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-filepath.cc \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-port.cc \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-printers.cc \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-test-part.cc \
+  /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-typed-test.cc

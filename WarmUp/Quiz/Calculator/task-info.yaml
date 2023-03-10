@@ -1,0 +1,32 @@
+type: output
+custom_name: Calculator
+files:
+- name: test/output.txt
+  visible: false
+  encrypted_text: WP5Uvc3kzuS5l4v+gWMMdhXE55kgdYqptab6qUHyFEM=
+  learner_created: false
+- name: test/input.txt
+  visible: false
+  encrypted_text: C+IbA7gI3IVEnyrn5bx2XqQN3jR0jwDlxWJdrAb7OsrvJ5ZN7rb5Tes8lFxOjy0MvTu/l4txZ0to7uCNieZacRXskQoTbGF9pzJkQSHigFDjuVxGTqNFcakQnIM8y8kG
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQmETHHGtFKz38G/nw2RsHr0+g0j0/aiz29PEzyUwPCCgNqEFI/0S/SZMlKJyg2o7YLqFFNZHM7IO16qTc2i5C7bwnCnQYCJmcq8t0tSl5bPX5Mqq3e9+9bCkao3oMoTrDgaIGrJf+VsnGRF3vOcJXRa8+bwfwx18c/1swF40pAdQtTIdEfbqgRvotLcgPJesA=
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 56
+    length: 10
+    placeholder_text: /* TODO */
+    initial_state:
+      length: 10
+      offset: 56
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 3fPLk1bR1R/f14Tv3bNyt2GQ9ayz0380OxKLs1C4Hs7L/v4yRxpRg/MLN3AGCiWN8RhBoS41GF5M9vrSHKeO6I8ubD1RGLqnkVzO4jr7kj921dj7yf/cJXXIENxDrwvCC+pIn4e01DazEwuQJbAmUxOrtkaQbu++pyNbkfZOurxzxK+TcyKsq6cTWYK04O8Y+Q9RAA0zIcY/OalscpQPviD5s5hh/zB+FwmErWHPdVbuMafxIzJK/b9VZIKGJNIvLMCsy8eJNGrGWMQw1R6RmO3JtvqfVu96gAoZmGFHTTa2oyj7AmRuxSHFwVIZFSK0NmWgwCJbUEQ2qhgccF5CjDjVDM9yaayg4pQgDE7J6O92LQc5Tb9ZEsHdlNl14KC6EKYanGhBcWgnj1ewRw3QMOZ2qmNdFMCKae4vnOw+A+YvJwNGU6khtQfoYnkMgePPMSE+CyNllo1xpfg2EhrOQ77XZ77FZQmd4xBzprUbrfGWH9xmttfeYBQX/VRXp0qvB0pLH1s+QXoBruZd6dlZpI8iRyVdiGl25olmugxQkBLfzFfoiNsv571dYR/RP2KB6jkEJWA0VcNNQSIjVVcHuDMK4wxI+rG2k2hOEE0w3nnfl2rC3zdoWz6Uwk1NsW8fpdxWqSBO2n9aZyVNPeYaDVApR8M7sTTtqHgrwUz7CLB6w1F4akTs7kz8UBSMXV6rdDfGIeAmrff8vhCAw4u8rroGv5Bzi9jDK1Mj9Zl9u7lRhEPLvHes/22ze6+fbSYIs2Ixsb4363Y2mLcyMnpQihkYyQvuXnxtGZKQgo2XePaBVM5FguLYvIvGCzj970rd34Q9u++74lkCEysSgpvUA/0ZGJr6hWHAjqONU+0SGabNdIU5HodnqXaD/7MtNU/zkCyfAZKsUK3Pc37wG7s4bLFBlm+Tu4W1s/YEWPNl5VGp9d7oZUNifpmDD/3xKFPAYkC0DBwkSegIS0wtXUgifEJTIXsiawIDzQ9/D0LiKra2qw5ndjzZqb0BdmnUGFBPxinj7ymIM6aOpxb/8ahA3z3LablCnZO7IplkCilYge5Ni8U+RO4BBDw39NyeMUiLCE74FDrT/dB4sPglM3NY/eRCI9c0aV9wXKPJDaU5Njc=
+  encrypted_text: G1EDRCp8K72w6UaV30vFpI1uJtNYv2m0HRLE7pSiNzGrSEVGYefK3+wt4zhek5Wd09YTBkY2A3dJmabRZR57/2K1Ewn1sbbit4N7yvu2TQ6GtKAII14vxn44PE9klPQJ
+  learner_created: false
+status: Unchecked
+record: -1

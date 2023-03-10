@@ -1,0 +1,1525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		500632D0B5F14B1C830AC3E8 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D1B9415166BD4613BDA83A73 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				95ABC783878326D1AD8CBC98 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		7FC1E9552BA943CEBD13A7E5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F8A177986DDB4B57A84A5C50 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				82338EDE13DF4357BFD3555F /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				85B4D8AECDCD43389B505D51 /* PBXTargetDependency */,
+				3A53D69112FD40A9BC4CC5CC /* PBXTargetDependency */,
+				D5EFD1361BE64A87923B205A /* PBXTargetDependency */,
+				D2D6A5F646C442809BE149AA /* PBXTargetDependency */,
+				EEC4DA02C9C14E51B6AD0E3D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F339C58B8754453F93192BA3 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DD1A3585CB164BE6ABC65A80 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8E1F16395A944868BE24B691 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		14E25E4271214AF89D2E5AD3 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock-all.cc */ = {isa = PBXBuildFile; fileRef = 66977096312446B2833EED2D /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock-all.cc */; };
+		18B9FBBDF0EE4EE689B1D4B9 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock_main.cc */ = {isa = PBXBuildFile; fileRef = 12D9D61BEC00477881EB1838 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock_main.cc */; };
+		2473A3CB1F19427192927F99 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FCDDB1EF6C374A64BAAA3119 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt */; };
+		37089F5A72EA478492E3D4C2 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 970EDB5C8F934454859611CF /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */; };
+		597C8078ED09445FBAA1FAE1 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 716AAD6FC646496EA8C3EEAA /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt */; };
+		785B11A673514CFEB99C7790 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = F3D42EB9C6ED48F79584D0F8 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-all.cc */; };
+		B6FD88BF44464292BDC0AF61 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8D9ED8AC12B6471CA9171E55 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */; };
+		C158114B74DC4B9995E14AA2 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 4BF16C0655E44DC0A7145B7D /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest_main.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1107984213FE4048A4AEFA90 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		2049004E8DA642788C5C4011 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D5F3993BC92545A485C87F89 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D68D7751DA0749CC8314D6E1 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		44DF17FE882D4B1A919F0B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C96F86A83AF148E2B2DFA0A8;
+			remoteInfo = gtest_main;
+		};
+		4B3080082DE94183A99C430D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500632D0B5F14B1C830AC3E8;
+			remoteInfo = ZERO_CHECK;
+		};
+		71121682AB1F488A8A83F0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006E063300C848C4900EF881;
+			remoteInfo = gtest;
+		};
+		7DDF8DF105AD4236853D6CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F3D3789F744716A57C11C7;
+			remoteInfo = gmock;
+		};
+		A67CA2FE16494DBE997C6F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FC1E9552BA943CEBD13A7E5;
+			remoteInfo = ALL_BUILD;
+		};
+		C34E434153C2451B8B4BFD38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006E063300C848C4900EF881;
+			remoteInfo = gtest;
+		};
+		CAA40ED30FE9402C9BFBAE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776B55796CD44C7C9319A5DB;
+			remoteInfo = gmock_main;
+		};
+		E1E5DC6CCD174D3293A2C198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006E063300C848C4900EF881;
+			remoteInfo = gtest;
+		};
+		EB5889AC52C14F6EB498EFB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006E063300C848C4900EF881;
+			remoteInfo = gtest;
+		};
+		EF262268D2CE4190A5F4C761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500632D0B5F14B1C830AC3E8;
+			remoteInfo = ZERO_CHECK;
+		};
+		F033F379022748188E5F5DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500632D0B5F14B1C830AC3E8;
+			remoteInfo = ZERO_CHECK;
+		};
+		FE3CF00C10914507BAA7CF75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725169001F4C5897FDD777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F3D3789F744716A57C11C7;
+			remoteInfo = gmock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090CADE6A74B458F803EAECD /* gmock */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgmockd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C283D8F169549F5BC955C89 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D9D61BEC00477881EB1838 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gmock_main.cc; path = src/gmock_main.cc; sourceTree = SOURCE_ROOT; };
+		292FD499F2734843B99FFA70 /* gmock_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgmock_maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF16C0655E44DC0A7145B7D /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest_main.cc"; sourceTree = "<absolute>"; };
+		6187FF64C8724D3B8531F362 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		66977096312446B2833EED2D /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gmock-all.cc"; path = "src/gmock-all.cc"; sourceTree = SOURCE_ROOT; };
+		68E1AD814F854DECB461B86D /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtestd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		716AAD6FC646496EA8C3EEAA /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt"; sourceTree = "<absolute>"; };
+		8D9ED8AC12B6471CA9171E55 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		970EDB5C8F934454859611CF /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F3D42EB9C6ED48F79584D0F8 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-all.cc"; sourceTree = "<absolute>"; };
+		FCDDB1EF6C374A64BAAA3119 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31243C5777E94F6C81244C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836B3E9671A84541AA265E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737B3F67ECD4A59BF70A763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F5CD4E84624906A35C4DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B27B84857BF4224BDFD7FD1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				42F2F58D32D94EA2BE93C6B7 /* CMake Rules */,
+				6187FF64C8724D3B8531F362 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2E5AD798D7C940BCB5C465CB /* gmock_main */ = {
+			isa = PBXGroup;
+			children = (
+				DFE7AD9D3B1743E581446BD6 /* Source Files */,
+				970EDB5C8F934454859611CF /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */,
+			);
+			name = gmock_main;
+			sourceTree = "<group>";
+		};
+		42F2F58D32D94EA2BE93C6B7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5A87309AAE9F4E378C4C2D9C /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				C21E152F5D7349DB81DA3878 /* Source Files */,
+				716AAD6FC646496EA8C3EEAA /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		683A41E0D62F488DB6221442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CD4C2572F0A4D7FAB3A2296 /* gmock */ = {
+			isa = PBXGroup;
+			children = (
+				95A456667D6E405893743D6F /* Source Files */,
+				8D9ED8AC12B6471CA9171E55 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/CMakeLists.txt */,
+			);
+			name = gmock;
+			sourceTree = "<group>";
+		};
+		7295C7BEEB6743CB8D3FDF30 = {
+			isa = PBXGroup;
+			children = (
+				6CD4C2572F0A4D7FAB3A2296 /* gmock */,
+				2E5AD798D7C940BCB5C465CB /* gmock_main */,
+				1B27B84857BF4224BDFD7FD1 /* ALL_BUILD */,
+				8604C552C7B345D282A89ACB /* gtest */,
+				5A87309AAE9F4E378C4C2D9C /* gtest_main */,
+				E042FD0A43264DD8923DCDE7 /* Products */,
+				683A41E0D62F488DB6221442 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8604C552C7B345D282A89ACB /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				E6335B9E6F8B480A9D435E6C /* Source Files */,
+				FCDDB1EF6C374A64BAAA3119 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		95A456667D6E405893743D6F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				66977096312446B2833EED2D /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C21E152F5D7349DB81DA3878 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BF16C0655E44DC0A7145B7D /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DFE7AD9D3B1743E581446BD6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				12D9D61BEC00477881EB1838 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E042FD0A43264DD8923DCDE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090CADE6A74B458F803EAECD /* gmock */,
+				292FD499F2734843B99FFA70 /* gmock_main */,
+				68E1AD814F854DECB461B86D /* gtest */,
+				0C283D8F169549F5BC955C89 /* gtest_main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6335B9E6F8B480A9D435E6C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D42EB9C6ED48F79584D0F8 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		006E063300C848C4900EF881 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1482E01541384AD59429752C /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				4EB8B058FE924A73A64715B7 /* Sources */,
+				836B3E9671A84541AA265E90 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 68E1AD814F854DECB461B86D /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+		03F3D3789F744716A57C11C7 /* gmock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865F199B01D14D5FBDFE2DE1 /* Build configuration list for PBXNativeTarget "gmock" */;
+			buildPhases = (
+				7B8FD55E73C34CD6A4D3D5A4 /* Sources */,
+				31243C5777E94F6C81244C3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D552089F2C44D5894A7B3C /* PBXTargetDependency */,
+				961FA5C25B8841778DDDC008 /* PBXTargetDependency */,
+			);
+			name = gmock;
+			productName = gmock;
+			productReference = 090CADE6A74B458F803EAECD /* gmock */;
+			productType = "com.apple.product-type.library.static";
+		};
+		776B55796CD44C7C9319A5DB /* gmock_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39B2BC893454BBABE463CC7 /* Build configuration list for PBXNativeTarget "gmock_main" */;
+			buildPhases = (
+				5D46B47B5CDA484D9B02DE32 /* Sources */,
+				D9F5CD4E84624906A35C4DAF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55258A88FB394506B51B77CA /* PBXTargetDependency */,
+				3D6638D927BA4E01B5F2CF64 /* PBXTargetDependency */,
+				B283D7E609054A6591A5C58D /* PBXTargetDependency */,
+			);
+			name = gmock_main;
+			productName = gmock_main;
+			productReference = 292FD499F2734843B99FFA70 /* gmock_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C96F86A83AF148E2B2DFA0A8 /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F54538E66F64BFD96B96DFD /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				8C3236CA9950496889672E4E /* Sources */,
+				C737B3F67ECD4A59BF70A763 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215AF4750DB54952BDB91D16 /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = 0C283D8F169549F5BC955C89 /* gtest_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95725169001F4C5897FDD777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 0977D82E06F94C989D743822 /* Build configuration list for PBXProject "gmock" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2049004E8DA642788C5C4011 /* Debug */,
+				D5F3993BC92545A485C87F89 /* Release */,
+				1107984213FE4048A4AEFA90 /* MinSizeRel */,
+				D68D7751DA0749CC8314D6E1 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7295C7BEEB6743CB8D3FDF30;
+			projectDirPath = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock";
+			projectRoot = "";
+			targets = (
+				7FC1E9552BA943CEBD13A7E5 /* ALL_BUILD */,
+				500632D0B5F14B1C830AC3E8 /* ZERO_CHECK */,
+				03F3D3789F744716A57C11C7 /* gmock */,
+				776B55796CD44C7C9319A5DB /* gmock_main */,
+				006E063300C848C4900EF881 /* gtest */,
+				C96F86A83AF148E2B2DFA0A8 /* gtest_main */,
+				F339C58B8754453F93192BA3 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		82338EDE13DF4357BFD3555F /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  \"/Users/said/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake\" -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  \"/Users/said/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake\" -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  \"/Users/said/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake\" -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  \"/Users/said/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake\" -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		95ABC783878326D1AD8CBC98 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  make -f /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  make -f /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  make -f /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock
+  make -f /Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EB8B058FE924A73A64715B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785B11A673514CFEB99C7790 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D46B47B5CDA484D9B02DE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B9FBBDF0EE4EE689B1D4B9 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8FD55E73C34CD6A4D3D5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E25E4271214AF89D2E5AD3 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/src/gmock-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3236CA9950496889672E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C158114B74DC4B9995E14AA2 /* /Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/src/gtest_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215AF4750DB54952BDB91D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 006E063300C848C4900EF881 /* gtest */;
+			targetProxy = 71121682AB1F488A8A83F0BE /* PBXContainerItemProxy */;
+		};
+		3A53D69112FD40A9BC4CC5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776B55796CD44C7C9319A5DB /* gmock_main */;
+			targetProxy = CAA40ED30FE9402C9BFBAE97 /* PBXContainerItemProxy */;
+		};
+		3D6638D927BA4E01B5F2CF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 006E063300C848C4900EF881 /* gtest */;
+			targetProxy = EB5889AC52C14F6EB498EFB3 /* PBXContainerItemProxy */;
+		};
+		55258A88FB394506B51B77CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F3D3789F744716A57C11C7 /* gmock */;
+			targetProxy = FE3CF00C10914507BAA7CF75 /* PBXContainerItemProxy */;
+		};
+		85B4D8AECDCD43389B505D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F3D3789F744716A57C11C7 /* gmock */;
+			targetProxy = 7DDF8DF105AD4236853D6CEC /* PBXContainerItemProxy */;
+		};
+		8E1F16395A944868BE24B691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FC1E9552BA943CEBD13A7E5 /* ALL_BUILD */;
+			targetProxy = A67CA2FE16494DBE997C6F13 /* PBXContainerItemProxy */;
+		};
+		961FA5C25B8841778DDDC008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500632D0B5F14B1C830AC3E8 /* ZERO_CHECK */;
+			targetProxy = 4B3080082DE94183A99C430D /* PBXContainerItemProxy */;
+		};
+		B283D7E609054A6591A5C58D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500632D0B5F14B1C830AC3E8 /* ZERO_CHECK */;
+			targetProxy = F033F379022748188E5F5DF4 /* PBXContainerItemProxy */;
+		};
+		D2D6A5F646C442809BE149AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C96F86A83AF148E2B2DFA0A8 /* gtest_main */;
+			targetProxy = 44DF17FE882D4B1A919F0B57 /* PBXContainerItemProxy */;
+		};
+		D5EFD1361BE64A87923B205A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 006E063300C848C4900EF881 /* gtest */;
+			targetProxy = E1E5DC6CCD174D3293A2C198 /* PBXContainerItemProxy */;
+		};
+		E6D552089F2C44D5894A7B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 006E063300C848C4900EF881 /* gtest */;
+			targetProxy = C34E434153C2451B8B4BFD38 /* PBXContainerItemProxy */;
+		};
+		EEC4DA02C9C14E51B6AD0E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500632D0B5F14B1C830AC3E8 /* ZERO_CHECK */;
+			targetProxy = EF262268D2CE4190A5F4C761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077F88C1F2584ACBAC77D5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/gtest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0B21184CE0384446878C26C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		13AE13EA5AB74B249D8F6C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_maind;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		14AD1510DFCE412AA778FEFF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		168DE484EA1B4555B02A670F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		24CC05431F3143ABB2C6B431 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		25446429928C4893B1EE5B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3658FCCE18204AA0911A6557 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/build";
+			};
+			name = RelWithDebInfo;
+		};
+		43A355989AE54532A50DB860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4CE94B604DD64D34BD75178B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4D7BCB5790044793A391A7EC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/gtest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4E1A0606844E45CA9F20610F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5FE2A886B25A492C8926CEA0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		699FFD07577F490089EA3E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		74DD180478E445E9A385B7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_maind;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/gtest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7521CDB77EF54FDC9DB8F834 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/gtest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8683471CF4C546E69FD4F375 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/build";
+			};
+			name = MinSizeRel;
+		};
+		9D46C307E769434983509943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A4AAA5D74E954307B7B78189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A91B1CB30D264DC28F69D136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmockd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AAB95BE93E4843F391276E8B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B10EA17AD067494EB2D3F3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B874570151CD4605B22E11C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googlemock","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B966EA5E1AAB47CEBB227E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/gtest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BDB9486196BB4654A26BD153 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/gtest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C8167716574C4651B30FD41E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CCE4064190654843944C4B93 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/gtest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CD47F58DCEE14FA8BE14F181 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D7A7DB41246645978AFCAF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/build";
+			};
+			name = Debug;
+		};
+		DE557776EABE447AAB569743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/build";
+			};
+			name = Release;
+		};
+		FBC8FB7D996847A0A84348B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest/include","/Users/said/CLionProjects/C++Basics1/test-framework/googletest-src/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DGTEST_HAS_PTHREAD=1   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtestd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock/gtest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FF91F3F24D7541B3AB4E3315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/said/CLionProjects/C++Basics1/test-framework/googletest-build/googlemock";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0977D82E06F94C989D743822 /* Build configuration list for PBXProject "gmock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A7DB41246645978AFCAF51 /* Debug */,
+				DE557776EABE447AAB569743 /* Release */,
+				8683471CF4C546E69FD4F375 /* MinSizeRel */,
+				3658FCCE18204AA0911A6557 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1482E01541384AD59429752C /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC8FB7D996847A0A84348B2 /* Debug */,
+				077F88C1F2584ACBAC77D5F0 /* Release */,
+				7521CDB77EF54FDC9DB8F834 /* MinSizeRel */,
+				BDB9486196BB4654A26BD153 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F54538E66F64BFD96B96DFD /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DD180478E445E9A385B7F8 /* Debug */,
+				B966EA5E1AAB47CEBB227E10 /* Release */,
+				4D7BCB5790044793A391A7EC /* MinSizeRel */,
+				CCE4064190654843944C4B93 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		865F199B01D14D5FBDFE2DE1 /* Build configuration list for PBXNativeTarget "gmock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91B1CB30D264DC28F69D136 /* Debug */,
+				B874570151CD4605B22E11C2 /* Release */,
+				168DE484EA1B4555B02A670F /* MinSizeRel */,
+				AAB95BE93E4843F391276E8B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1B9415166BD4613BDA83A73 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF91F3F24D7541B3AB4E3315 /* Debug */,
+				699FFD07577F490089EA3E16 /* Release */,
+				C8167716574C4651B30FD41E /* MinSizeRel */,
+				4CE94B604DD64D34BD75178B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD1A3585CB164BE6ABC65A80 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25446429928C4893B1EE5B15 /* Debug */,
+				B10EA17AD067494EB2D3F3F9 /* Release */,
+				CD47F58DCEE14FA8BE14F181 /* MinSizeRel */,
+				14AD1510DFCE412AA778FEFF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F39B2BC893454BBABE463CC7 /* Build configuration list for PBXNativeTarget "gmock_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AE13EA5AB74B249D8F6C26 /* Debug */,
+				43A355989AE54532A50DB860 /* Release */,
+				5FE2A886B25A492C8926CEA0 /* MinSizeRel */,
+				4E1A0606844E45CA9F20610F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F8A177986DDB4B57A84A5C50 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D46C307E769434983509943 /* Debug */,
+				A4AAA5D74E954307B7B78189 /* Release */,
+				0B21184CE0384446878C26C0 /* MinSizeRel */,
+				24CC05431F3143ABB2C6B431 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95725169001F4C5897FDD777 /* Project object */;
+}
